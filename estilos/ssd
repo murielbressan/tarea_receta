@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Sans+JP&display=swap');
+
+body {
+  text-align: center;
+  background-color: #fcfcf7;
+}
+header {
+  background-image: url(../imagenes/fondo.webp);
+  height: 270px;
+  
+}
+h1 {
+  font-family: "Girassol";
+  color: rgb(223, 148, 63);
+}
+.subtitulo {
+  margin-top: -20px;
+  font-weight: lighter;
+  font-family: 'Dancing Script', cursive;
+}
+.instrucciones {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px;
+  border-radius: 1%;
+  background-color: rgb(223, 148, 63);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: normal;
+}
+.impresora {
+  width: 50px;
+  margin-bottom: -20px;
+}
+li {
+  text-align: left;
+}
+h2 {
+    font-family: "Girassol";
+  }
+.list1 {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 10%;
+  background-image: url(../imagenes/fondo.webp);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.para2 {
+  margin-top: -20px;
+  font-size: medium;
+}
+.plato {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: -40px;
+  border-radius: 1%;
+ 
+}
+img {
+  width: 500px;
+  max-width:100%;
+  width:auto;
+  height:auto;
+}
+.nutri {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px;
+  
+}
+.link {
+  font-size: large;
+}
+.tiramisu {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px transparent;
+  border-radius: 1%;
+  background-color: burlywood;
+  
+  
+}
+.video {
+  max-width:100%;
+  width:auto;
+  height:auto;
+}

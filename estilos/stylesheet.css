@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Sans+JP&display=swap");
+
+@media (max-width: 699px) {
+  a {
+    text-decoration: none;
+    color: rgb(192, 145, 84);
+  }
+  body {
+    text-align: center;
+    background-color: #fcfcf7;
+    /* width: 95%; */
+    padding: 0px;
+    margin: 0px;
+  }
+  header {
+    background-image: url(../imagenes/header2.png);
+    height: auto;
+    flex-wrap: nowrap;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(218, 212, 197);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  nav img {
+    width: 10%;
+    padding: 2%;
+  }
+  nav ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0cm;
+    border: 1px;
+    border-radius: 2%;
+    background-color: rgb(218, 212, 197);
+    padding: 0;
+  }
+  nav ul li {
+    width: 80%;
+    height: 5vh;
+    display: block;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(218, 212, 197);
+    background-color: rgb(233, 232, 229);
+    list-style-type: none;
+    text-align: center;
+    justify-content: flex-start;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  h1 {
+    font-family: "Girassol";
+    color: rgb(223, 148, 63);
+  }
+  #subtitulo {
+    margin-top: -20px;
+    font-weight: lighter;
+    font-family: "Dancing Script", cursive;
+  }
+  .mapa {
+    width: 95%;
+  }
+  #list1 {
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10%;
+    background-image: url(../imagenes/fondo_fideos.png);
+    font-family: "Noto Sans JP", sans-serif;
+    position: relative;
+  }
+  .para2 {
+    margin-top: -20px;
+    font-size: medium;
+  }
+  .instrucciones {
+    height: 50%;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px;
+    border-radius: 1%;
+    background-color: rgb(223, 148, 63);
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+  
+  }
+  .plato {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -40px;
+    border-radius: 1%;
+  }
+  .impresora {
+    width: 50px;
+    margin-bottom: -20px;
+  }
+
+  .imprimir {
+    margin-top: 1rem;
+  }
+
+  li {
+    text-align: left;
+  }
+  h2 {
+    font-family: "Girassol";
+  }
+
+  img {
+    width: 500px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  #nutricional {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 95%;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    border: 1px;
+    border: 15px t;
+    border-radius: 1%;
+    border-color: rgb(50, 50, 196);
+  }
+  .link {
+    font-size: large;
+  }
+  #tiramisu {
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    border: 15px t;
+    border-radius: 1%;
+    border-color: lavender;
+    background-color: burlywood;
+  }
+  .video {
+    width: 95%;
+  }
+}
+
+@media (min-width: 700px) {
+  a {
+    text-decoration: none;
+    color: rgb(192, 145, 84);
+  }
+  
+
+  header {
+    background-image: url(../imagenes/header.png);
+    height: 380px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-color: rgb(233, 232, 229);
+    background-color: rgb(218, 212, 197);
+    margin: 0px;
+    outline: none;
+    align-items: center;
+  }
+
+  nav img {
+    width: 3%;
+    padding: 1%;
+  }
+  nav ul {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    border-radius: 2%;
+    background-color: rgb(218, 212, 197);
+    padding: 4px;
+  }
+  nav ul li {
+    border: 1px solid;
+    border-color: rgb(233, 232, 229);
+    border-radius: 40px;
+    background-color: rgb(233, 232, 229);
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 4px;
+    margin-right: 5px;
+  }
+  
+  #list1 {
+    height: 100%;
+    padding: 15px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-image: url(../imagenes/fondo_fideos.png);
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .para2 {
+    margin-top: -20px;
+    margin-bottom: -10px;
+    font-size: medium;
+  }
+  
+  .instrucciones {
+    margin: 0 auto;
+    padding: 15px;
+    width: 60%;
+     margin-top: 15px;
+    border: 1px;
+    border-radius: 1%;
+    background-color: rgb(223, 148, 63);
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+   }
+  h1 {
+    font-family: "Girassol";
+    color: rgb(223, 148, 63);
+  }
+  #subtitulo {
+    margin-top: -20px;
+    font-weight: lighter;
+    font-family: "Dancing Script", "cursive";
+  }
+
+  .impresora {
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    
+  }
+  .imprimir {
+    width: 50px;
+    margin: 0 auto;
+
+  }
+  h2 {
+    font-family: "Girassol";
+  }
+  ul {
+    display: inline;
+  }
+  
+  main ul li {
+    list-style-type: none;
+  }
+  
+  .plato {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -40px;
+    border-radius: 1%;
+  }
+  img {
+    width: 500px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  #nutricional {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px;
+    border: 15px t;
+    border-radius: 1%;
+  }
+  .link {
+    margin-top: 15px;
+  
+  }
+  #tiramisu {
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    border: 15px t;
+    border-radius: 1%;
+    border-color: lavender;
+    background-color: burlywood;
+  }
+  .video {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  body {
+    text-align: center;
+    background-color: #fcfcf7;
+    padding: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin: 0 auto !important;
+  }
+  .main-class {
+    text-align: center;
+    margin:0 auto !important;
+    width: 100%;
+  }
+  
+}
